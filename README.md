@@ -42,5 +42,5 @@ Para llevar a cabo una estrategia de ventas efectiva, es fundamental considerar 
 - Cumplimiento con normativas de calidad y seguridad en los productos comercializados.
 
 ## Modelo Relacional en Mysql 
-
+ ![imagen](https://github.com/angelbri/appVentaDeElectrodomenticos/blob/main/modelo%20relacional.JPG)
 
