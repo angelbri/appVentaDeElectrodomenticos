@@ -44,3 +44,34 @@ Para llevar a cabo una estrategia de ventas efectiva, es fundamental considerar 
 ## Modelo Relacional en Mysql 
  ![imagen](https://github.com/angelbri/appVentaDeElectrodomenticos/blob/main/modelo%20relacional.JPG)
 
+## Descripción de las tablas principales
+
+
+1. **Clientes**: 
+   - Propósito: Almacena información sobre los clientes de la empresa. Contiene detalles como nombre, dirección, teléfono, y correo electrónico.
+   - Relevancia: Es crucial para registrar quiénes realizan los pedidos y poder asociarlos con sus datos personales y contacto.
+
+2. **Empleados**:
+   - Propósito: Contiene información sobre los empleados, como nombre, dirección, teléfono y correo electrónico.
+   - Relevancia: Permite registrar qué empleado está a cargo de procesar o gestionar cada pedido.
+
+3. **Pedidos**:
+   - Propósito: Representa las órdenes realizadas por los clientes. Incluye información como la fecha del pedido, el cliente que lo realizó y el empleado encargado.
+   - Relevancia: Es el núcleo del sistema, ya que conecta los clientes con los productos y empleados.
+
+4. **Detalle_Pedido**:
+   - Propósito: Registra los productos específicos que forman parte de cada pedido, junto con la cantidad, el precio unitario y el subtotal por producto.
+   - Relevancia: Permite desglosar cada pedido en sus componentes específicos, proporcionando detalles esenciales para el cálculo del total y la gestión de inventarios.
+
+5. **Productos**:
+   - Propósito: Almacena información sobre los productos disponibles, como su nombre, descripción, precio, stock, categoría y marca.
+   - Relevancia: Es fundamental para gestionar el inventario y para asociar los productos a los pedidos.
+
+6. **Categoría**:
+   - Propósito: Define las categorías a las que pertenece cada producto.
+   - Relevancia: Ayuda a organizar los productos para facilitar su búsqueda y análisis.
+
+7. **Marcas**:
+   - Propósito: Almacena las marcas relacionadas con los productos.
+   - Relevancia: Es útil para identificar productos de una marca específica, lo que puede ser importante para promociones o análisis de ventas.
+
